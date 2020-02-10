@@ -14,78 +14,22 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Martel Sans", sans-serif;
   line-height: 1.5;
   background: var(--light);
+  height: 100vh;
 }
 
-a {
-  color: var(--dark);
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-/* Utility */
-.container {
-  max-width: var(--max-width);
+.coming-soon {
+  text-align: center;
+  justify-content: center;
   margin: auto;
-  padding: 0 2rem;
-  overflow: hidden;
+  height: 100vh;
+  padding: 10% 0;
+  vertical-align: middle;
 }
-
-.btn {
-  border: none;
-  background: var(--primary);
-  color: var(--light);
-  padding: 0.5rem 1.5rem;
-  border-radius: 5px;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn:hover {
-  background: var(--secondary);
-}
-
-.flex {
-  display: flex;
-}
-
-/* Navigation */
-nav {
-  background: var(--primary);
-}
-
-nav .container {
-  position: sticky;
-  flex-direction: column;
-}
-
-nav a {
-  color: var(--light);
-  transition: all 0.3s ease-in-out;
-}
-
-nav a:hover {
-  color: var(--pop);
-}
-
-/* Hero */
-
-/* About */
-#about {
-  flex-direction: column;
-}
-
-#about img {
-  position: relative;
-  width: 100%;
-  border-radius: 50%;
-}
-
-/* Portfolio */
-
-/* Footer */
