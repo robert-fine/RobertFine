@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Martel+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="mobile.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px)"
+      href="widescreen.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 767px)"
+      href="menu.css.css"
+    />
+    <title>Robert Fine | Front-End Engineer</title>
+  </head>
+  <body>
+    <nav class="menu-wrap">
+      <div class="container">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <div class="menu">
+          <div class="nav-container flex">
+            <div class="logo"></div>
+            <ul>
+              <li>
+                <a href="#home">Robert Fine</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <header id="home">
+        <h1>Hi, I'm Robert Fine.</h1>
+        <p class="lead">
+          I am a front-end engineer that specializes in building websites and
+          web applications.
+        </p>
+        <a href="#portfolio">View My Work</a>
+      </header>
+      <main>
+        <section id="about" class="flex">
+          <div class="text">
+            <h2 class="section-title">About Me</h2>
+            <div class="divider"></div>
+            <!-- Section A: Text -->
+            <p>
+              I'm a front-end engineer from Lafayette, LA that likes building
+              websites and web applications.
+            </p>
+            <p>Below are the technologies I specialize in:</p>
+            <ul>
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS & SASS</li>
+            </ul>
+          </div>
+          <!-- Section B: Photo -->
+          <div class="portrait">
+            <img src="./images/portrait.jpg" alt="Picture of me" />
+          </div>
+        </section>
+        <section id="portfolio">
+          <h2 class="section-title">My Work</h2>
+          <div class="divider"></div>
+          <!-- Section A: Featured Cards -->
+          <p>Check out some of my projects.</p>
+          <div class="cards">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/Procurement_Helper.jpg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/Professional_Movers.jpg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/Cursor_Labyrinth.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="divider"></div>
+          <p>Use the form below or send me an email</p>
+          <!-- Section A: Contact Form -->
+          <form method="POST">
+            <div class="text-fields">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="text-input name-input" name="name" />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="text"
+                  class="text-input email-input"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="text-input name-input"
+                  name="message"
+                ></textarea>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </div>
+          </form>
+          <!-- Section B: Email -->
+          <div class="contact-info">
+            <p>Email:</p>
+            <a href="mailto:robert@robertfine.dev">robert@robertfine.dev</a>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-content container">
+          <p>Thanks for stopping by!</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
