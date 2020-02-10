@@ -16,7 +16,7 @@
     <link
       rel="stylesheet"
       media="screen and (max-width: 767px)"
-      href="menu.css.css"
+      href="menu.css"
     />
     <title>Robert Fine | Front-End Engineer</title>
   </head>
@@ -28,9 +28,9 @@
           <div></div>
         </div>
         <div class="menu">
-          <div class="nav-container flex">
+          <div class="nav-container flex py-1">
             <div class="logo"></div>
-            <ul>
+            <ul class="flex">
               <li>
                 <a href="#home">Robert Fine</a>
               </li>
@@ -49,13 +49,15 @@
       </div>
     </nav>
     <div class="container">
-      <header id="home">
-        <h1>Hi, I'm Robert Fine.</h1>
+      <header id="home" class="py-4">
+        <h1 class="py-1">Hi, I'm Robert Fine.</h1>
         <p class="lead">
-          I am a front-end engineer that specializes in building websites and
-          web applications.
+          I am a <span>front-end engineer</span> that specializes in building
+          websites and web applications.
         </p>
-        <a href="#portfolio">View My Work</a>
+        <div class="py-3">
+          <a href="#portfolio" class="btn">View My Work</a>
+        </div>
       </header>
       <main>
         <section id="about" class="flex">
@@ -67,11 +69,11 @@
               I'm a front-end engineer from Lafayette, LA that likes building
               websites and web applications.
             </p>
-            <p>Below are the technologies I specialize in:</p>
+            <p class="py-1">Below are the technologies I specialize in:</p>
             <ul>
               <li>Javascript</li>
               <li>HTML</li>
-              <li>CSS & SASS</li>
+              <li>CSS</li>
             </ul>
           </div>
           <!-- Section B: Photo -->

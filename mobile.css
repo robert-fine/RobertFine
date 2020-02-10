@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "Martel Sans", sans-serif;
+  font-family: 'Martel Sans', sans-serif;
   line-height: 1.5;
   background: var(--light);
 }
@@ -39,7 +39,7 @@ ul {
 
 .btn {
   border: none;
-  background: var(--primary);
+  background: var(--secondary);
   color: var(--light);
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
@@ -47,11 +47,37 @@ ul {
 }
 
 .btn:hover {
-  background: var(--secondary);
+  background: var(--primary);
+  color: var(--pop);
 }
 
 .flex {
   display: flex;
+}
+
+h2 {
+  padding: 1.5rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.lead {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 /* Navigation */
@@ -59,8 +85,7 @@ nav {
   background: var(--primary);
 }
 
-nav .container {
-  position: sticky;
+nav ul {
   flex-direction: column;
 }
 
@@ -73,19 +98,35 @@ nav a:hover {
   color: var(--pop);
 }
 
+.toggler {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
 /* Hero */
+#home {
+  height: 100vh;
+}
 
 /* About */
 #about {
   flex-direction: column;
+  height: 100vh;
 }
 
 #about img {
   position: relative;
   width: 100%;
+  max-width: 500px;
   border-radius: 50%;
 }
 
 /* Portfolio */
+#portfolio img {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
 
 /* Footer */
