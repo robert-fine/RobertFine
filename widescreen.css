@@ -25,6 +25,10 @@ nav ul li {
   padding: 1rem 1.5rem;
 }
 
+.nav-socials {
+  display: none;
+}
+
 .toggler {
   display: none;
 }
