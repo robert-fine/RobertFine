@@ -3,15 +3,261 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/732ee2ef9e.js" crossorigin="anonymous"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Martel+Sans&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="mobile.css" />
+<<<<<<< HEAD
 
     <title>Robert Fine</title>
   </head>
   <body>
     <p class="container coming-soon">Coming Soon</p>
+=======
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px)"
+      href="widescreen.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 767px)"
+      href="menu.css"
+    />
+    <title>Robert Fine | Front-End Engineer</title>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="menu-wrap">
+
+        <div class="container">
+          <input type="checkbox" class="toggler" />
+          <div class="hamburger">
+            <div></div>
+          </div>
+          <div class="menu">
+            <div class="nav-container flex">
+              <a href="#home">
+                <img src="./images/logo.png" class="logo">
+              </a>
+              <ul class="flex">
+                <li>
+                  <a href="#about" class="lead">About</a>
+                </li>
+                <li>
+                  <a href="#portfolio" class="lead">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#contact" class="lead">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </nav>
+    <div class="container">
+      <header id="home" class="py-4">
+        <h1>Hi, I'm Robert Fine.</h1>
+        <p class="lead py-1">
+          I am a front-end engineer that specializes in building
+          websites and web applications.
+        </p>
+        <div class="py-3">
+          <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+      </header>
+      <main>
+        <section id="about" class="flex">
+          <div class="text">
+            <h2 class="section-title">About Me</h2>
+            <!-- Section A: Text -->
+            <p class="py-1">
+              I'm a front-end engineer from Lafayette, LA that gets joy from building
+              websites and web applications.
+            </p>
+            <p class="py-1">Below are the technologies I specialize in:</p>
+            <ul>
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <!-- Section B: Photo -->
+          <div class="portrait py-2">
+            <img src="./images/portrait.jpg" alt="Picture of me" />
+          </div>
+        </section>
+        <section id="portfolio">
+          <h2 class="section-title">My Work</h2>
+          <div class="divider"></div>
+          <!-- Section A: Featured Cards -->
+          <p>Check out some of my projects.</p>
+          <div class="cards flex">
+            <div class="card flex">
+              <div class="card-image">
+                <img src="./images/Procurement_Helper.jpg" alt="" />
+              </div>
+              <details>
+                <summary>Procurement Helper</summary>
+                <div class="card-description flex">
+                  <ul>
+                    <li>
+                      Web App to aid in purchase order issuance
+                    </li>
+                    <li>
+                      Tech:
+                    </li>
+                    <li>
+                      HTML, CSS, & Javascript
+                    </li>
+                  </ul>
+                 <div class="links flex">
+
+                   <a href="https://stoic-lovelace-b5fb81.netlify.com/" target="_blank">
+                    <i class="fas fa-external-link-alt fa-2x"></i>
+                  </a>
+                  <a href="https://github.com/robert-fine/Procurement_Assistant" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                </div>
+                </div>
+              </details>
+            </div>
+            <div class="card flex">
+              <div class="card-image">
+                <img src="./images/Professional_Movers.jpg" alt="" />
+              </div>
+              <details>
+                <summary>Professional Movers</summary>
+                <div class="card-description flex">
+                  <ul>
+                    <li>
+                      Brochure/business card type website
+                    </li>
+                    <li>
+                      Tech:
+                    </li>
+                    <li>
+                      HTML & CSS
+                    </li>
+                  </ul>
+                  <div class="links flex">
+
+                    <a href="https://professionalmovers.netlify.com/" target="_blank">
+                      <i class="fas fa-external-link-alt fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/robert-fine/professional_movers" target="_blank">
+                      <i class="fab fa-github fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </details>
+            </div>
+            <div class="card flex">
+              <div class="card-image">
+                <img src="./images/Cursor_Labyrinth.jpg" alt="" />
+              </div>
+              <details>
+                <summary>Cursor Labyrinth</summary>
+                <div class="card-description flex">
+                  <ul>
+                    <li>
+                      Mouse cursor maze game
+                    </li>
+                    <li>
+                      Tech:
+                    </li>
+                    <li>
+                      HTML, CSS, & Javascript
+                    </li>
+                  </ul>
+                  <div class="links flex">
+
+                    <a href="https://cursorlabyrinth.netlify.com/" target="_blank">
+                      <i class="fas fa-external-link-alt fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/robert-fine/Cursor_Labyrinth" target="_blank">
+                      <i class="fab fa-github fa-2x"></i>
+                    </a>
+                  </div>
+                  </div>
+              </details>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <h2 class="section-title">Contact Me</h2>
+          <p class="py-2">Use the form below or send me an email</p>
+          <!-- Section A: Contact Form -->
+          <div class="contact-wrapper flex">
+
+            <form method="POST">
+              <div class="text-fields">
+                <div class="form-group py-1">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="text-input name-input" name="name" />
+                </div>
+                <div class="form-group py-1">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                  type="text"
+                  class="text-input email-input"
+                  name="email"
+                  />
+                </div>
+                <div class="form-group py-1">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                  class="text-input message-input"
+                  name="message"
+                  ></textarea>
+                </div>
+                <div class="form-group contact-btn">
+                  
+                  <input type="submit" value="Send" class="btn" />
+                </div>
+              </div>
+            </form>
+            <!-- Section B: Email & Socials -->
+            <div class="contact-info py-3 flex">
+              <p>Email:</p>
+              <a href="mailto:robert@robertfine.dev">robert@robertfine.dev</a>
+              <div class="socials py-1">
+                <ul class="flex">
+                  <li><a href="https://www.linkedin.com/in/robert-fine-3b816967/">
+                    <i class="fab fa-linkedin fa-3x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/robert-fine">
+                    <i class="fab fa-github-square fa-3x"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </section>
+      </main>
+    </div>
+        <footer>
+            <div class="footer-content container">
+              <a href="https://github.com/robert-fine/RobertFine">
+                <i class="fas fa-code-branch footer-icon"></i>
+              </a>
+            </div>
+        </footer>
+>>>>>>> master
   </body>
 </html>
