@@ -144,7 +144,7 @@ nav a:hover {
 
 /* Hero */
 #home {
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
 }
 
@@ -155,7 +155,7 @@ h1 {
 /* About */
 #about {
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #about img {
@@ -199,7 +199,7 @@ h1 {
 /* Contact */
 #contact {
   padding: 5rem 0;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .contact-wrapper {
