@@ -29,6 +29,10 @@ nav ul li {
   display: none;
 }
 
+#bottom-nav {
+  display: none;
+}
+
 .toggler {
   display: none;
 }
@@ -42,8 +46,16 @@ h1 {
   padding-top: 25%;
 }
 
+.portrait {
+  display: block;
+}
+
 #portfolio {
   padding-top: 4rem;
+}
+
+.cards {
+  align-items: unset;
 }
 
 .card {
@@ -52,6 +64,7 @@ h1 {
 
 details {
   padding-left: 1.5rem;
+  width: 100%;
 }
 
 #contact {
