@@ -4,7 +4,8 @@
   --primary: #070749;
   --secondary: #191986;
   --pop: #ffe816;
-  --max-width: 1100px;
+  --max-width-widescreen: 1100px;
+  --max-width-mobile: 600px;
   --menu-speed: 0.75s;
 }
 
@@ -54,7 +55,7 @@ select {
 
 /* Utility */
 .container {
-  max-width: var(--max-width);
+  max-width: var(--max-width-mobile);
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
@@ -98,6 +99,10 @@ h2 {
 
 .py-4 {
   padding: 3rem 0;
+}
+
+.pl-1 {
+  padding-left: 1rem;
 }
 
 .lead {
@@ -147,6 +152,10 @@ nav a:hover {
 
 .nav-socials {
   flex-direction: row;
+}
+
+.nav-socials i {
+  padding: 0 1rem;
 }
 
 .nav-socials i:hover {
@@ -201,7 +210,7 @@ h1 {
 /* About */
 #about {
   flex-direction: column;
-  min-height: 100vh;
+  margin: 10rem 0;
 }
 
 .portrait {
@@ -219,8 +228,8 @@ h1 {
 
 /* Portfolio */
 #portfolio {
-  min-height: 100vh;
-  padding-top: 2rem;
+  margin: 10rem 0;
+  padding-top: 1rem;
 }
 
 #portfolio img {
@@ -240,13 +249,23 @@ h1 {
   flex-direction: column;
 }
 
+.card-image {
+  width: 100%;
+}
+
 .card-description {
+  flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 }
 
 .links {
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.links i {
+  padding: 0;
 }
 
 details {
@@ -264,8 +283,8 @@ summary {
 
 /* Contact */
 #contact {
-  padding: 5rem 0;
-  min-height: 100vh;
+  margin: 10rem 0;
+  padding-top: 1rem;
 }
 
 .contact-wrapper {
@@ -298,11 +317,13 @@ form {
 
 .contact-info {
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .socials ul {
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding-top: 1rem;
 }
 /* Footer */
 footer {

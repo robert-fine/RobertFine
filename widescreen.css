@@ -1,3 +1,7 @@
+.container {
+  max-width: var(--max-width-widescreen);
+}
+
 nav {
   position: sticky;
   max-height: 3.5rem;
@@ -51,7 +55,7 @@ h1 {
 }
 
 #portfolio {
-  padding-top: 4rem;
+  padding-top: 1rem;
 }
 
 .cards {
@@ -62,9 +66,8 @@ h1 {
   flex-direction: row;
 }
 
-details {
-  padding-left: 1.5rem;
-  width: 100%;
+.card-description {
+  padding-left: 1rem;
 }
 
 #contact {
@@ -79,4 +82,5 @@ details {
 
 .contact-info {
   flex-direction: column;
+  justify-content: space-evenly;
 }
