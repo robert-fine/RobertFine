@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: "Martel Sans", sans-serif;
+  font-family: 'Martel Sans', sans-serif;
   line-height: 1.5;
   background: var(--light);
   background-color: var(--light);
@@ -218,6 +218,11 @@ nav a:hover {
 
 .about-container {
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-text {
+  max-width: 600px;
 }
 
 .portrait {
@@ -229,7 +234,7 @@ nav a:hover {
 #about img {
   position: relative;
   width: 100%;
-  max-width: 500px;
+  max-width: 250px;
   border-radius: 50%;
 }
 
