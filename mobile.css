@@ -345,8 +345,18 @@ footer {
   text-align: center;
 }
 
+.footer-content {
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: small;
+  padding-top: 1rem;
+}
+
 .footer-icon {
-  margin-top: 1rem;
+  padding-top: 1rem;
   color: var(--light);
 }
 
